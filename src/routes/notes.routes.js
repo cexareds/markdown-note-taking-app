@@ -2,8 +2,8 @@ import express from "express";
 import multer from "multer";
 import { body, param, validationResult } from "express-validator";
 import {} from "@controllers/notes.controller";
-import { validateNoteUpload } from "@middlewares/validate";
-import { handleValidationErrors } from "@middlewares/errorHandler";
+import { validateNoteUpload } from "../middlewares/validate";
+import { handleValidationErrors } from "../middlewares/errorHandler";
 
 const upload = multer({ dest: "uploads/" });
 const router = express.Router();

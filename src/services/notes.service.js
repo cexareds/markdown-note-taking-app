@@ -1,8 +1,8 @@
-import prisma from "@config/prisma-client";
+import prisma from "../config/prisma-client";
 import fs from "fs";
 import path from "path";
 import markdownIt from "markdown-it";
-import logger from "@utils/logger";
+import logger from "../config/logger";
 
 const md = new markdownIt();
 

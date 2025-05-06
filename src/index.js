@@ -1,9 +1,9 @@
 import express from "express";
 import cors from "cors";
 import compression from "compression";
-import notesRoutes from "@routes/notes";
-import { errorHandler } from "@middlewares/errorHandler";
-import { envs } from "@config/envs";
+import notesRoutes from "./routes/notes.routes";
+import { errorHandler } from "./middlewares/errorHandler";
+import { envs } from "./config/envs";
 
 const app = express();
 

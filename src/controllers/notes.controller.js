@@ -1,4 +1,4 @@
-import NoteService from "@services/notes.service";
+import NoteService from "../services/notes.service";
 
 export class NoteController {
   async uploadNote(req, res, next) {
